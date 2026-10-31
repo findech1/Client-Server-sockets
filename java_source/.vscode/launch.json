@@ -1,0 +1,51 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run AdditionServer (Port 5000)",
+      "request": "launch",
+      "mainClass": "AdditionServer",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "Run AdditionClient (Interactive / Prompt)",
+      "request": "launch",
+      "mainClass": "AdditionClient",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "Run AdditionClient with Args (25, 75)",
+      "request": "launch",
+      "mainClass": "AdditionClient",
+      "args": "25 75",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "Run TextAdditionServer (Port 5001)",
+      "request": "launch",
+      "mainClass": "TextAdditionServer",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "Run MultiThreadedServer (Port 5002)",
+      "request": "launch",
+      "mainClass": "MultiThreadedServer",
+      "console": "integratedTerminal"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "🚀 Run Server & Client Together",
+      "configurations": [
+        "Run AdditionServer (Port 5000)",
+        "Run AdditionClient with Args (25, 75)"
+      ],
+      "stopAll": true
+    }
+  ]
+}

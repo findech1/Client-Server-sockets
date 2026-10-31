@@ -1,0 +1,6 @@
+{
+  "name": "Java Socket Client-Server Integer Addition",
+  "description": "A comprehensive Java socket programming application and interactive simulator for two-integer addition over TCP client-server sockets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

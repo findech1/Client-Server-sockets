@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile All Java Socket Programs",
+      "type": "shell",
+      "command": "javac *.java",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$javac"]
+    },
+    {
+      "label": "Run Server in Terminal",
+      "type": "shell",
+      "command": "java AdditionServer",
+      "presentation": {
+        "panel": "new",
+        "group": "sockets"
+      }
+    },
+    {
+      "label": "Run Client in Terminal",
+      "type": "shell",
+      "command": "java AdditionClient",
+      "presentation": {
+        "panel": "new",
+        "group": "sockets"
+      }
+    }
+  ]
+}
