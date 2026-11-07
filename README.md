@@ -63,7 +63,7 @@ Compile each implementation before starting it. For example:
 javac TextAdditionServer.java TextAdditionClient.java
 ```
 
-or:
+or: The use 
 
 ```bash
 javac MultiThreadedServer.java AdditionClient.java
